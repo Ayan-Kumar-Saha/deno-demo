@@ -15,7 +15,7 @@ const getProducts = async (
       Status.OK,
     );
   } catch (err) {
-    sendErrorResponse(err);
+    sendErrorResponse(response);
   }
 };
 
@@ -34,7 +34,7 @@ const getProduct = async (
       Status.OK,
     );
   } catch (err) {
-    sendErrorResponse(err);
+    sendErrorResponse(response);
   }
 };
 
